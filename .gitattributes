@@ -1,0 +1,7 @@
+*.plist linguist-detectable
+EFI/BOOT/** linguist-vendored
+EFI/OC/Drivers/** linguist-vendored
+EFI/OC/Kexts/** linguist-vendored
+EFI/OC/OpenCore.efi linguist-vendored
+EFI/OC/Resources/** linguist-vendored
+EFI/OC/Tools/** linguist-vendored

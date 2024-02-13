@@ -8,6 +8,29 @@
 
 Partially based on [johnnynunez/Xiaomi-Mi-Air](https://github.com/johnnynunez/Xiaomi-Mi-Air)
 
+## Status
+
+Mostly perfect. Apart from the fact that the hardware itself is old and slow.
+
+### Working
+
+- Wi-Fi
+- Bluetooth _(except for AirDrop, Handoff, Continuity)_
+- TouchPad _(including gestures)_
+- iGPU
+- Keyboard _(including special keys)_
+- Screen _(including brightness & Night Shift)_
+- HDMI/AUX outputs _(with resolution up to 1440p)_
+- USB ports _(including USB Type-C hubs)_
+- Sleep
+- Built-in camera, microphone, speakers
+- Battery management
+
+### Not working
+
+- TouchID _(see <https://github.com/johnnync13/Xiaomi-Mi-Air/issues/94>)_
+- dGPU _(will never work)_
+
 ## Hardware
 
 - **CPU**: Intel Core i5-7200U - **Kaby Lake**

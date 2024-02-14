@@ -4,7 +4,7 @@
 
 **SMBIOS:** MacBookPro14,2
 
-**OpenCore:** [0.9.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.5)
+**OpenCore:** [0.9.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.8)
 
 Partially based on [johnnynunez/Xiaomi-Mi-Air](https://github.com/johnnynunez/Xiaomi-Mi-Air)
 
@@ -57,11 +57,13 @@ Boot chime is enabled.
 2) `HfsPlus.efi` - Proprietary EFI **HFS+** file system driver
 3) `OpenCanopy.efi` - OpenCore plugin (Bootloader GUI)
 4) `OpenRuntime.efi` - Mandatory OpenCore plugin with [special features](https://dortania.github.io/docs/latest/Configuration.html#openruntime)
+5) `ResetNvramEntry.efi` - OpenCore plugin, adds [ResetNvram](https://dortania.github.io/docs/latest/Configuration.html#resetnvramentry) entry to the boot menu
+6) `ToggleSipEntry.efi` - OpenCore plugin, adds [ToggleSip](https://dortania.github.io/docs/latest/Configuration.html#togglesipentry) entry to the boot menu
 
 ### Kexts
 
 1) [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) (**2.2.0**) - Open Intel Wireless (Wi-Fi)
-2) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.8.6**) - Audio for not officially supported codecs
+2) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.8.9**) - Audio for not officially supported codecs
 3) [CPUFriend](https://github.com/acidanthera/CPUFriend) (**1.2.7**) - CPU power management
 4) [CPUFriendDataProvider](https://github.com/corpnewt/CPUFriendFriend) (**04-Sep-2021**) - Manually generated CPUFriend tuning
 5) [HibernationFixup](https://github.com/acidanthera/HibernationFixup) (**1.4.9**) - Fixes hibernation

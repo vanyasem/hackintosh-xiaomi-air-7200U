@@ -49,7 +49,7 @@ Boot chime is enabled.
 
 ## Bundled
 
-[Resources](https://github.com/acidanthera/OcBinaryData) included
+[Resources](https://github.com/acidanthera/OcBinaryData) included _(except for voiceovers)_
 
 ### Drivers
 

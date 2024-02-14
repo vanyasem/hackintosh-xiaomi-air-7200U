@@ -1,6 +1,6 @@
 # Xiaomi Mi Notebook Air 13.3 7200U (2017)
 
-**Supported macOS version:** macOS 11 - Big Sur **and** macOS 13 - Ventura
+**Supported macOS version:** macOS 13 - Ventura
 
 **SMBIOS:** MacBookPro14,2
 
@@ -66,8 +66,8 @@ Boot chime is enabled.
 4) [CPUFriendDataProvider](https://github.com/corpnewt/CPUFriendFriend) (**04-Sep-2021**) - Manually generated CPUFriend tuning
 5) [HibernationFixup](https://github.com/acidanthera/HibernationFixup) (**1.4.9**) - Fixes hibernation
 6) [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (**2.3.0**) - Open Intel Wireless (Bluetooth)
-7) [IntelBluetoothInjector](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (**n/a**) - Part of IntelBluetoothFirmware. Required for Big Sur and earlier
-8) [IntelBTPatcher](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (**n/a**) - Part of IntelBluetoothFirmware. Required for Monterey and later
+7) [IntelBTPatcher](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (**n/a**) - Part of IntelBluetoothFirmware. Required for Monterey and later
+8) [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) (**2.6.8**) - Required for Monterey and later
 9) [Lilu](https://github.com/acidanthera/Lilu) (**1.6.7**) - Required for almost all other Kexts
 10) [NullEthernet](https://bitbucket.org/RehabMan/os-x-null-ethernet) (**1.0.6**) - "Null" (Fake) Ethernet driver to be used when you have no working Ethernet
 11) [NVMeFix](https://github.com/acidanthera/NVMeFix) (**1.1.1**) - Improve compatibility with non-Apple NVMe SSDs

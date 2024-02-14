@@ -25,6 +25,7 @@ Mostly perfect. Apart from the fact that the hardware itself is old and slow.
 - Sleep
 - Built-in camera, microphone, speakers
 - Battery management
+- FileVault
 
 ### Not working
 

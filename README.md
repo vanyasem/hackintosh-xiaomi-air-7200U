@@ -1,12 +1,22 @@
 # Xiaomi Mi Notebook Air 13.3 7200U (2017)
 
-**Supported macOS version:** macOS 13 - Ventura
+**Supported macOS version:** macOS 14.4 - Sonoma _(pay attention to the fact that only 14.4 and up is supported)_
 
-**SMBIOS:** MacBookPro14,2
+**SMBIOS:** MacBookPro15,4
 
-**OpenCore:** [0.9.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.8)
+**OpenCore:** [0.9.9](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.9)
 
 Partially based on [johnnynunez/Xiaomi-Mi-Air](https://github.com/johnnynunez/Xiaomi-Mi-Air)
+
+## Updating
+
+If you are updating from macOS 13 - Ventura, you must pay attention to the fact that SMBIOS has changed in order to recieve the Sonoma update.
+
+This means that you have to log out of iCloud before updating the EFI. You can also delete iCloud leftovers by following [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#clean-out-old-attempts) to be extra safe. And then you will have to regenerate the serial number with GenSMBIOS (as described in the Notes section below).
+
+After updating the EFI, reset NVRAM on first boot (press Spacebar when on boot picker, and select Reset NVRAM).
+
+You can then proceed with the update as you normally would on a Mac. Open System Settings, check for updates, and install Sonoma. You can then log back into iCloud. Your PC will be detected as an entirely new device. Make sure to delete stale login entries from your device list.
 
 ## Status
 
@@ -63,12 +73,12 @@ Boot chime is enabled.
 
 ### Kexts
 
-1) [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) (**2.2.0**) - Open Intel Wireless (Wi-Fi)
+1) [AirportItlwm](https://github.com/vanyasem/itlwm) (**2.3.0-alpha-**) - Open Intel Wireless (Wi-Fi)
 2) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.8.9**) - Audio for not officially supported codecs
 3) [CPUFriend](https://github.com/acidanthera/CPUFriend) (**1.2.7**) - CPU power management
 4) [CPUFriendDataProvider](https://github.com/corpnewt/CPUFriendFriend) (**04-Sep-2021**) - Manually generated CPUFriend tuning
 5) [HibernationFixup](https://github.com/acidanthera/HibernationFixup) (**1.4.9**) - Fixes hibernation
-6) [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (**2.3.0**) - Open Intel Wireless (Bluetooth)
+6) [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (**2.4.0**) - Open Intel Wireless (Bluetooth)
 7) [IntelBTPatcher](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (**n/a**) - Part of IntelBluetoothFirmware. Required for Monterey and later
 8) [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) (**2.6.8**) - Required for Monterey and later
 9) [Lilu](https://github.com/acidanthera/Lilu) (**1.6.7**) - Required for almost all other Kexts

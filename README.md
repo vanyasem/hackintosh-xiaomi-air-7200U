@@ -73,7 +73,7 @@ Boot chime is enabled.
 
 ### Kexts
 
-1) [AirportItlwm](https://github.com/vanyasem/itlwm) (**2.3.0-alpha-**) - Open Intel Wireless (Wi-Fi)
+1) [AirportItlwm](https://github.com/vanyasem/itlwm) (**2.3.0-alpha**) - Open Intel Wireless (Wi-Fi)
 2) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.8.9**) - Audio for not officially supported codecs
 3) [CPUFriend](https://github.com/acidanthera/CPUFriend) (**1.2.7**) - CPU power management
 4) [CPUFriendDataProvider](https://github.com/corpnewt/CPUFriendFriend) (**04-Sep-2021**) - Manually generated CPUFriend tuning

@@ -1,6 +1,6 @@
 # Xiaomi Mi Notebook Air 13.3 7200U (2017)
 
-**Supported macOS version:** macOS 14.4 - Sonoma _(pay attention to the fact that only 14.4 and up is supported)_
+**Supported macOS version:** macOS 12 - Monterey, macOS 13 - Ventura, macOS 14 - Sonoma (including 14.4)
 
 **SMBIOS:** MacBookPro15,4
 

@@ -10,13 +10,13 @@ Partially based on [johnnynunez/Xiaomi-Mi-Air](https://github.com/johnnynunez/Xi
 
 ## Updating
 
-If you are updating from macOS 13 - Ventura, you must pay attention to the fact that SMBIOS has changed in order to recieve the Sonoma update.
+If you are updating from macOS 13 (Ventura), pay attention to the fact that the SMBIOS has changed in order to receive the Sonoma update.
 
-This means that you have to log out of iCloud before updating the EFI. You can also delete iCloud leftovers by following [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#clean-out-old-attempts) to be extra safe. And then you will have to regenerate the serial number with GenSMBIOS (as described in the Notes section below).
+Before updating the EFI, log out of iCloud. You can also delete iCloud leftovers by following [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#clean-out-old-attempts) for extra safety. Afterward, regenerate the serial number with `GenSMBIOS` (as described in the Notes section below).
 
-After updating the EFI, reset NVRAM on first boot (press Spacebar when on boot picker, and select Reset NVRAM).
+After updating the EFI, reset NVRAM on first boot (press spacebar on the boot picker, and select `Reset NVRAM`).
 
-You can then proceed with the update as you normally would on a Mac. Open System Settings, check for updates, and install Sonoma. You can then log back into iCloud. Your PC will be detected as an entirely new device. Make sure to delete stale login entries from your device list.
+Proceed with the update as you normally would on a Mac. Open System Settings, check for updates, and install Sonoma. Then log back into iCloud. Your PC will be detected as an entirely new device. Make sure to delete stale login entries from your device list.
 
 ## Status
 
@@ -48,13 +48,13 @@ Mostly perfect. Apart from the fact that the hardware itself is old and slow.
 
 ## Notes
 
-While the config itself is ready to use, you still need to [generate your own serial numbers and tweak the config accordingly](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios) before installing the system.
+While the config itself is ready to use, you still need to [generate your own serial numbers and tweak the configuration accordingly](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios) before installing the system.
 
-Xiaomi does not allow to change CFG lock in UEFI settings, so you will have to manually patch your UEFI to remove CFG lock. I do not remember how I did it myself, but I'm sure it's nothing a DuckDuckGo search can't solve. You might want to take a look [here](https://github.com/johnnynunez/Xiaomi-Mi-Air/tree/master/BIOS).
+Xiaomi does not allow changing CFG lock in UEFI settings, so you must manually patch your UEFI to remove CFG lock. I don't remember how I did it myself, but I'm sure it's nothing a DuckDuckGo search can't solve. You might want to take a look [here](https://github.com/johnnynunez/Xiaomi-Mi-Air/tree/master/BIOS).
 
-After installing, you might be interested in [enabling secure boot](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#dmgloading).
+After installation, consider [enabling secure boot](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#dmgloading).
 
-You can also [disable on-screen logging](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/debug.html#config-changes) once you're sure that your system is stable.
+You can also [disable on-screen logging](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/debug.html#config-changes) once you’re sure your system is stable.
 
 Boot chime is enabled.
 
@@ -74,7 +74,7 @@ Boot chime is enabled.
 ### Kexts
 
 1) [AirportItlwm](https://github.com/vanyasem/itlwm) (**2.3.0**) - Open Intel Wireless (Wi-Fi)
-2) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.9.1**) - Audio for not officially supported codecs
+2) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.9.1**) - Audio for codecs that are not officially supported
 3) [CPUFriend](https://github.com/acidanthera/CPUFriend) (**1.2.8**) - CPU power management
 4) [CPUFriendDataProvider](https://github.com/corpnewt/CPUFriendFriend) (**04-Sep-2021**) - Manually generated CPUFriend tuning
 5) [HibernationFixup](https://github.com/acidanthera/HibernationFixup) (**1.5.1**) - Fixes hibernation
@@ -98,3 +98,4 @@ Boot chime is enabled.
 ### Tools
 
 1) `OpenShell.efi` - EFI shell, useful for debugging
+2) `CleanNvram.efi` - completely clears NVRAM, useful when NVRAM got corrupted

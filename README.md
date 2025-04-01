@@ -1,10 +1,10 @@
 # Xiaomi Mi Notebook Air 13.3 7200U (2017)
 
-**Supported macOS version:** macOS 12 - Monterey, macOS 13 - Ventura, macOS 14 - Sonoma (including 14.4)
+**Supported macOS version:** macOS 12 - Monterey, macOS 13 - Ventura, macOS 14 - Sonoma (including 14.4+)
 
 **SMBIOS:** MacBookPro15,4
 
-**OpenCore:** [1.0.3](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.3)
+**OpenCore:** [1.0.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.4)
 
 Partially based on [johnnynunez/Xiaomi-Mi-Air](https://github.com/johnnynunez/Xiaomi-Mi-Air)
 

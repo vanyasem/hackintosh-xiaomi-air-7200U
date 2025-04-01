@@ -74,7 +74,7 @@ Boot chime is enabled.
 ### Kexts
 
 1) [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) (**2.3.0**) - Open Intel Wireless (Wi-Fi)
-2) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.9.3**) - Audio for codecs that are not officially supported
+2) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.9.4**) - Audio for codecs that are not officially supported
 3) [CPUFriend](https://github.com/acidanthera/CPUFriend) (**1.2.9**) - CPU power management
 4) [CPUFriendDataProvider](https://github.com/corpnewt/CPUFriendFriend) (**04-Sep-2021**) - Manually generated CPUFriend tuning
 5) [HibernationFixup](https://github.com/acidanthera/HibernationFixup) (**1.5.2**) - Fixes hibernation
@@ -89,7 +89,7 @@ Boot chime is enabled.
 14) [SMCProcessor](https://github.com/acidanthera/VirtualSMC) (**n/a**) - Part of VirtualSMC. Used for monitoring Intel CPU temperature
 15) [SMCSuperIO](https://github.com/acidanthera/VirtualSMC) (**n/a**) - Part of VirtualSMC. Used for monitoring fan speed
 16) [USBInjectAll](https://github.com/Sniki/OS-X-USB-Inject-All) (**0.7.6**) - Inject all USB ports for the installed Intel EHCI/XHCI chipset automatically
-17) [VirtualSMC](https://github.com/acidanthera/VirtualSMC) (**1.3.4**) - SMC emulator layer
+17) [VirtualSMC](https://github.com/acidanthera/VirtualSMC) (**1.3.5**) - SMC emulator layer
 18) [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C) (**2.9.1**) - Intel I2C bus controller and slave device drivers
 19) [VoodooI2CHID](https://github.com/VoodooI2C/VoodooI2C) (**n/a**) - Part of VoodooI2C. Add support for I2C-HID devices
 20) [VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2) (**2.3.7**) - VoodooInput's Magic Trackpad II emulation

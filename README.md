@@ -4,7 +4,7 @@
 
 **SMBIOS:** MacBookPro15,4
 
-**OpenCore:** [1.0.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.4)
+**OpenCore:** [1.0.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.5)
 
 Partially based on [johnnynunez/Xiaomi-Mi-Air](https://github.com/johnnynunez/Xiaomi-Mi-Air)
 

@@ -74,26 +74,26 @@ Boot chime is enabled.
 ### Kexts
 
 1) [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) (**2.3.0**) - Open Intel Wireless (Wi-Fi)
-2) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.9.4**) - Audio for codecs that are not officially supported
-3) [CPUFriend](https://github.com/acidanthera/CPUFriend) (**1.2.9**) - CPU power management
+2) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.9.5**) - Audio for codecs that are not officially supported
+3) [CPUFriend](https://github.com/acidanthera/CPUFriend) (**1.3.0**) - CPU power management
 4) [CPUFriendDataProvider](https://github.com/corpnewt/CPUFriendFriend) (**04-Sep-2021**) - Manually generated CPUFriend tuning
-5) [HibernationFixup](https://github.com/acidanthera/HibernationFixup) (**1.5.2**) - Fixes hibernation
+5) [HibernationFixup](https://github.com/acidanthera/HibernationFixup) (**1.5.4**) - Fixes hibernation
 6) [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (**2.4.0**) - Open Intel Wireless (Bluetooth)
 7) [IntelBTPatcher](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (**n/a**) - Part of IntelBluetoothFirmware. Required for Monterey and later
-8) [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) (**2.6.9**) - Required for Monterey and later
-9) [Lilu](https://github.com/acidanthera/Lilu) (**1.7.0**) - Required for almost all other Kexts
+8) [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) (**2.7.1**) - Required for Monterey and later
+9) [Lilu](https://github.com/acidanthera/Lilu) (**1.7.1**) - Required for almost all other Kexts
 10) [NullEthernet](https://bitbucket.org/RehabMan/os-x-null-ethernet) (**1.0.6**) - "Null" (Fake) Ethernet driver to be used when you have no working Ethernet
-11) [NVMeFix](https://github.com/acidanthera/NVMeFix) (**1.1.2**) - Improve compatibility with non-Apple NVMe SSDs
+11) [NVMeFix](https://github.com/acidanthera/NVMeFix) (**1.1.3**) - Improve compatibility with non-Apple NVMe SSDs
 12) [SMCBatteryManager](https://github.com/acidanthera/VirtualSMC) (**n/a**) - Part of VirtualSMC. Used for measuring battery readouts
 13) [SMCLightSensor](https://github.com/acidanthera/VirtualSMC) (**n/a**) - Part of VirtualSMC. Used for the ambient light sensor
 14) [SMCProcessor](https://github.com/acidanthera/VirtualSMC) (**n/a**) - Part of VirtualSMC. Used for monitoring Intel CPU temperature
 15) [SMCSuperIO](https://github.com/acidanthera/VirtualSMC) (**n/a**) - Part of VirtualSMC. Used for monitoring fan speed
 16) [USBInjectAll](https://github.com/Sniki/OS-X-USB-Inject-All) (**0.7.6**) - Inject all USB ports for the installed Intel EHCI/XHCI chipset automatically
-17) [VirtualSMC](https://github.com/acidanthera/VirtualSMC) (**1.3.5**) - SMC emulator layer
+17) [VirtualSMC](https://github.com/acidanthera/VirtualSMC) (**1.3.7**) - SMC emulator layer
 18) [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C) (**2.9.1**) - Intel I2C bus controller and slave device drivers
 19) [VoodooI2CHID](https://github.com/VoodooI2C/VoodooI2C) (**n/a**) - Part of VoodooI2C. Add support for I2C-HID devices
 20) [VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2) (**2.3.7**) - VoodooInput's Magic Trackpad II emulation
-21) [WhateverGreen](https://github.com/acidanthera/WhateverGreen) (**1.6.9**) - Patches for GPUs
+21) [WhateverGreen](https://github.com/acidanthera/WhateverGreen) (**1.7.0**) - Patches for GPUs
 
 ### Tools
 
